@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: Montserrat;
+    /*font-weight: regular;*/
+    font-weight: 400;
+    src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 300;
+    src: url("../fonts/montserrat/Montserrat-Light.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 100;
+    src: url("../fonts/montserrat/Montserrat-Hairline.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 500;
+    src: url("../fonts/montserrat/Montserrat-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: bold;
+    src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+}
+
+body{
+	font-family: Montserrat, san-serif;
+}
+
+.bg-hosting{
+	background: url('../svg/php_hosting.svg') no-repeat right;
+}
+
+.light-text{
+	font-weight: 100
+}
+
+.san-serif-text{
+	font-family: sans-serif;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #efefef!important;
+}
+
+.min-bold{
+	font-weight: 600
+}
+
+.min-bold-300{
+	font-weight: 400
+}
+
+.min-bold-200{
+	font-weight: 300
+}
+
+.min-bold-100{
+    font-weight: 100
+}
+
+.min-bold-150{
+    font-weight: 280
+}
+
+.divide{
+    height: 5px;
+    background: #efefef;
+    width: 10%;
+}
+.divide_vertical{
+    border-right: 0.5px solid #ffff;
+    opacity: 0.3
+}
+
+.btn-outline-white{
+    border-color: #ffff;
+}
+
+.footer p{
+    margin-bottom: 0px;
+    line-height: 2;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #adadad;
+}
+.footer h6{
+    font-weight: 400;
+    color: #5d5d5d;
+}
+.footer small{
+    font-size: 0.7rem;
+    color: #5c5c5c;
+}
+
+.pricing{
+    text-align: center;
+    border: 1px solid #efefef;
+    border-radius: 3px
+}
+
+.pricing .header, .pricing .price , .pricing .sub , .pricing .body{
+    border-bottom: 1px solid #efefef;
+    padding: 16px;
+}
+
+.pricing-best{
+    text-align: center;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    border-color: #39A3F4;
+}
+
+.pricing-best .header, .pricing-best .price{
+    background: #39A3F4;
+    color: #ffff;
+    padding: 16px
+}
+
+.pricing-best .body{
+    padding: 16px
+}
+
+.pricing-best .header h2{
+    margin: 0px;
+}
+.pricing-best .sub{
+    background: #247FDF;
+    color: #fff;
+    padding: 16px
+}
+
+.blue-star{
+    color: #39A3F4;
+    font-size: large;
+}
