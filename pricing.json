@@ -2,8 +2,10 @@
 	"pricing":[
 		{
 			"name":"Bayi",
+			"prefix":"Rp",
 			"real_price":"Rp 19.900",
-			"discount_price":"Rp 14.900",
+			"big_price":"14",
+			"discount_price":"900",
 			"payment_type":"bln",
 			"how_many_customers":938,
 			"future":[
@@ -20,8 +22,10 @@
 		},
 		{
 			"name":"Pelajar",
+			"prefix":"Rp",
 			"real_price":"Rp 46.900",
-			"discount_price":"Rp 23.450",
+			"big_price":"23",
+			"discount_price":"450",
 			"payment_type":"bln",
 			"how_many_customers":4.168,
 			"future":[
@@ -41,7 +45,9 @@
 		{
 			"name":"Personal",
 			"real_price":"Rp 58.000",
-			"discount_price":"Rp 38.000",
+			"prefix":"Rp",
+			"big_price":"38",
+			"discount_price":"000",
 			"payment_type":"bln",
 			"how_many_customers":10.017,
 			"future":[
@@ -63,8 +69,10 @@
 		},
 		{
 			"name":"Bisnis",
+			"prefix":"Rp",
 			"real_price":"Rp 109.900",
-			"discount_price":"Rp 65.900",
+			"big_price":"65",
+			"discount_price":"900",
 			"payment_type":"bln",
 			"how_many_customers":3.552,
 			"future":[

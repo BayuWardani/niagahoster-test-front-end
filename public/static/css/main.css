@@ -29,13 +29,31 @@
 @font-face {
     font-family: Montserrat;
     font-weight: bold;
-    src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+    src: url("../fonts/montserrat/Montserrat-bold.otf") format("opentype");
+}
+
+
+@font-face{
+    font-family: Roboto;
+    src:url("../fonts/roboto/Roboto-Regular.ttf") format("opentype");
 }
 
 body{
 	font-family: Montserrat, san-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat, san-serif !important;
+    color: #4c4c4c;
+}
+
+p{
+    color: #7c7c7c;
+}
+
+.text-g{
+    color: #7c7c7c;
+}
 .bg-hosting{
 	background: url('../svg/php_hosting.svg') no-repeat right;
 }
@@ -45,7 +63,7 @@ body{
 }
 
 .san-serif-text{
-	font-family: sans-serif;
+	font-family: Roboto;
 }
 
 .border-bottom{
@@ -108,10 +126,33 @@ body{
     border-radius: 3px
 }
 
+.pricing .body{
+    font-size: small;
+    font-weight: 300;
+    padding: 16px;
+}
+
+.pricing .body p{
+    margin: 0px;
+    line-height: 2;
+}
+
 .pricing .header, .pricing .price , .pricing .sub , .pricing .body{
     border-bottom: 1px solid #efefef;
     padding: 16px;
 }
+
+.pricing .price h2{
+    /*font-size: x-large;*/
+    /*text-align: center;*/
+}
+
+.pricing .header h2, .pricing .header h3, .pricing .header h4{
+    margin: 0px;
+    /*color: #fff;*/
+}
+
+
 
 .pricing-best{
     text-align: center;
@@ -120,26 +161,89 @@ body{
     border-color: #39A3F4;
 }
 
-.pricing-best .header, .pricing-best .price{
-    background: #39A3F4;
-    color: #ffff;
-    padding: 16px
+.pricing-best .price h2{
+    /*font-size: x-large;*/
+    /*text-align: center;*/
 }
 
 .pricing-best .body{
-    padding: 16px
+    font-size: small;
+    font-weight: 300;
+    padding: 16px;
 }
 
-.pricing-best .header h2{
+.pricing-best .body p{
     margin: 0px;
+    line-height: 2;
 }
+
+.pricing-best .header,.pricing-best .price{
+    background: #2d8fee;
+    color: #fff;
+}
+
+.pricing-best .header h4, .pricing-best .price h2{
+    color: #fff;
+}
+
 .pricing-best .sub{
+    border-bottom: 1px solid #efefef;
     background: #247FDF;
     color: #fff;
-    padding: 16px
+}
+
+.pricing-best .header, .pricing-best .price , .pricing-best .sub , .pricing-best .body{
+    /*border-bottom: 1px solid #efefef;*/
+    padding: 16px;
+}
+
+.pricing-best .header h2, .pricing-best .header h3, .pricing-best .header h4{
+    margin: 0px;
+    /*color: #fff;*/
+}
+
+.two_c_big{
+    /*width: 2ch;*/
+}
+
+.xlarge{
+  font-size: xx-large;
+  /*margin: 0px*/
+}
+
+.large{
+    font-size: xx-large;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background: #f7f7f7;
 }
 
 .blue-star{
     color: #39A3F4;
     font-size: large;
+}
+
+.bg-blue-star{
+    background: #39A3F4;
+    color: #fff;
+}
+
+.clip{
+
+    width: 10px;
+    height: 10px;
+    background: #F7F7F7;
+    position: absolute;
+    left: -5px;
+    transform: rotate(45deg);
+    border-left: 1px solid #e2e0e0;
+    border-bottom: 1px solid #e2e0e0;
+
+    z-index: -10
+}
+
+.sosial_footer{
+    height: 50px;
+    width: 50px;
 }
