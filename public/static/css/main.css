@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     color: #7c7c7c;
+    word-wrap: break-word;
 }
 
 .text-g{
@@ -246,4 +247,39 @@ p{
 .sosial_footer{
     height: 50px;
     width: 50px;
+}
+
+
+.hide-mobile{
+
+}
+.hide-desktop{
+    display: none;
+}
+
+.margin-top-mobile-4{
+    margin-top: 0rem;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .hide-mobile{
+        display: none;
+    }
+    .hide-desktop{
+        display: flex;
+    }
+
+    .margin-top-mobile-4{
+        margin-top: 2rem
+    }
+
+    .no-padding-mobile{
+        padding: 0 !important
+    }
+
+    .mt-mobile-2{
+        margin-top: 1rem;
+    }
 }
